@@ -1,0 +1,95 @@
+/* Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff00;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    margin: 2px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color:azure;
+}
+
+main img{
+    display: flex;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.tt {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tt h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tt img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.tt ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tt ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tt ul li abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+    cursor: help;
+}
+
+.tt ul li abbr:hover {
+    border-bottom: 1px solid #333;
+}
+
+footer{
+    border-radius: 10px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
